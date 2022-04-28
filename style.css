@@ -1,0 +1,18 @@
+.body{
+    background-color: #F3F1FF;
+}
+
+.navbar img{
+    width: 40px;
+}
+
+.player img{
+    width: 56px;
+}
+
+.player-name{
+    padding: 15px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}

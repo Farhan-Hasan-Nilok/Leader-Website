@@ -1,18 +1,109 @@
-.body{
+
+body{
     background-color: #F3F1FF;
 }
 
 .navbar img{
     width: 40px;
+   
+}
+.navbar-brand{
+    margin-left: 285px;
+}
+
+main{
+    max-width: 870px;
+    border-radius: 10px;
+}
+
+ul{
+    margin-right: 285px;
 }
 
 .player img{
     width: 56px;
 }
 
+
 .player-name{
     padding: 15px;
     font-family: poppins;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+h3{
+    color: #562EFF;
+    font-size: 24px;
+    font-family: poppins;
+    margin-top: 25px;
+    padding: 20px;
+    
+}
+
+.blogs img{
+    width: 177px;
+    margin-bottom: 20px;
+}
+
+hr{
+    
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.blogs h4{
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.blogs p{
+
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 300;
+}
+
+span{
+    color: #562EFF;
+}
+
+.blog-align{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+footer{
+    max-width: 870px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 224px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.rating span{
+    color: #A2A2A2;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.card{
+    width: 252px;
 }

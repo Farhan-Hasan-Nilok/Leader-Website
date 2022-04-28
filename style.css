@@ -113,18 +113,9 @@ footer{
 
 .clock{
      background-color: #FEE5DF;
-   
-    border-radius: 18px; 
-}
-
-
-.clock p{
-    /* margin-top: -2px;
-    margin-left: 5px; */
+    border-radius: 10px;
 }
 
 .fa-clock{
-    /* margin-top: 3px; */
     color: #FF4A60;
-    display: inline;
 }

@@ -77,12 +77,28 @@ span{
 footer{
     max-width: 870px;
     border-radius: 10px;
+    margin-bottom: 20px;
+    height: 380px;
 }
 
+.card-text{
+    color: #ED6B4F;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+}
 .card img{
     width: 224px;
     margin-top: 15px;
     margin-left: 18px;
+}
+
+.time{
+    color: #ED6B4F;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
 }
 
 .fa-star {
@@ -118,4 +134,31 @@ footer{
 
 .fa-clock{
     color: #FF4A60;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-title{
+        text-align: center;
+    }
+
+    .leaders{
+        padding-left: 35%;
+        
+    }
+    
+    footer h3{
+        text-align: center;
+    }
+
+    footer{
+        height: 1000px;
+    }
+
+    .card{
+        width: 262px;
+        margin-bottom: 20px;
+        margin-left: 20%;
+    }
+
+    
 }

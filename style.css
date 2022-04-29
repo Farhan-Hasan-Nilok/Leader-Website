@@ -1,31 +1,31 @@
-
-body{
+body {
     background-color: #F3F1FF;
 }
 
-.navbar img{
+.navbar img {
     width: 40px;
-   
+
 }
-.navbar-brand{
+
+.navbar-brand {
     margin-left: 285px;
 }
 
-main{
+main {
     max-width: 870px;
     border-radius: 10px;
 }
 
-ul{
+ul {
     margin-right: 285px;
 }
 
-.player img{
+.player img {
     width: 56px;
 }
 
 
-.player-name{
+.player-name {
     padding: 15px;
     font-family: poppins;
     font-size: 14px;
@@ -33,73 +33,76 @@ ul{
     margin-top: 10px;
 }
 
-h3{
+h3 {
     color: #562EFF;
     font-size: 24px;
     font-family: poppins;
     margin-top: 25px;
     padding: 20px;
-    
+
 }
 
-.blogs img{
+.blogs img {
     width: 177px;
     margin-bottom: 20px;
 }
 
-hr{
-    
+hr {
+
     margin-bottom: 25px;
     margin-top: 25px;
 }
 
-.blogs h4{
+.blogs h4 {
     font-size: 20px;
     font-family: poppins;
 }
 
-.blogs p{
+.blogs p {
 
     font-size: 16px;
     font-family: poppins;
     font-weight: 300;
 }
 
-span{
+span {
     color: #562EFF;
 }
 
-.blog-align{
+.blog-align {
     margin-top: 15px;
     margin-left: 20px;
 }
 
-footer{
+footer {
     max-width: 870px;
     border-radius: 10px;
     margin-bottom: 20px;
     height: 380px;
 }
 
-.card-text{
+.card-text {
     color: #ED6B4F;
     font-family: poppins;
     font-weight: 300;
     font-size: 14px;
 }
-.card img{
+
+.card img {
     width: 224px;
     margin-top: 15px;
     margin-left: 18px;
 }
 
-.time{
+.time {
     color: #ED6B4F;
     font-family: poppins;
     font-size: 14px;
     font-weight: 400;
     margin-top: 2px;
 }
+
+/* this fa fa css is for font awsome icon */
 
 .fa-star {
     font-size: 12px;
@@ -115,50 +118,50 @@ footer{
     color: #AEAEAE;
 }
 
-.rating span{
+.rating span {
     color: #A2A2A2;
     margin-left: 5px;
     margin-top: -3px;
 }
 
-.card{
+.card {
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     border: none;
 }
 
-.clock{
-     background-color: #FEE5DF;
+.clock {
+    background-color: #FEE5DF;
     border-radius: 10px;
 }
 
-.fa-clock{
+.fa-clock {
     color: #FF4A60;
 }
 
+/* Responsive for mobile device */
+
 @media only screen and (max-width: 600px) {
-    .top-title{
+    .top-title {
         text-align: center;
     }
 
-    .leaders{
+    .leaders {
         padding-left: 35%;
-        
+
     }
-    
-    footer h3{
+
+    footer h3 {
         text-align: center;
     }
 
-    footer{
+    footer {
         height: 1000px;
     }
 
-    .card{
+    .card {
         width: 262px;
         margin-bottom: 20px;
         margin-left: 20%;
     }
-
-    
 }

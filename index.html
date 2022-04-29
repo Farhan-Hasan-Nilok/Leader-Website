@@ -33,7 +33,7 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#course">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
@@ -52,6 +52,7 @@
     </header>
 
     <!-- Main Page -->
+
     <main class="mx-auto bg-white">
         <h3 class="top-title">Top Player</h3>
         <section class="container-fluid">
@@ -90,7 +91,7 @@
                         <div>
                             <img src="images/blogs/blog-1.png" alt="">
                         </div>
-                        <div class="blog-align"data-aos="fade-left">
+                        <div class="blog-align" data-aos="fade-left">
                             <h4>13 of My Favorite<br>
                                 UI/UX Goodies</h4>
                             <p>By <span>Danny Sapio</span></p>
@@ -102,7 +103,7 @@
                         <div>
                             <img src="images/blogs/blog-2.png" alt="">
                         </div>
-                        <div class="blog-align"data-aos="fade-left">
+                        <div class="blog-align" data-aos="fade-left">
                             <h4>UI cheat sheet:<br>
                                 list vs grids</h4>
                             <p>By <span>Tess Gadd</span></p>
@@ -114,7 +115,7 @@
                         <div>
                             <img src="images/blogs/blog-3.png" alt="">
                         </div>
-                        <div class="blog-align"data-aos="fade-left">
+                        <div class="blog-align" data-aos="fade-left">
                             <h4>7 typography tips<br>
                                 for interface design</h4>
                             <p>By <span>Jeremiah Lam</span></p>
@@ -126,7 +127,7 @@
                         <div>
                             <img src="images/blogs/blog-4.png" alt="">
                         </div>
-                        <div class="blog-align"data-aos="fade-left">
+                        <div class="blog-align" data-aos="fade-left">
                             <h4>Your logo is<br>
                                 copied</h4>
                             <p>By <span>Ferdinand Vogler</span></p>
@@ -137,7 +138,9 @@
         </section>
     </main>
 
-    <footer class="container-fluid bg-white">
+    <!-- course section -->
+
+    <footer class="container-fluid bg-white" id="course">
         <h3>Latest Course</h3>
         <div class="courses">
             <div class="row row-cols-1 row-cols-md-3">
@@ -148,28 +151,28 @@
                             <h5 class="card-title">React - The Complete Guide 2020</h5>
                             <p class="card-text">Reed Krakoff.</p>
                             <div class="d-flex justify-content-between">
-                            <div class="rating ">
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star filled"></i>
-                                <i class="fas fa-star empty"></i>
-                                <span>4.5</span>
-                            </div>
-                            <div class="clock d-flex flex-row align-content-center">
-                                <div>
-                                    <i class="fas fa-clock d-inline"></i>
+                                <div class="rating ">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star empty"></i>
+                                    <span>4.5</span>
                                 </div>
-                                <div class="time">
-                                    <p class=" mb-0">1:30 hr</p>
+                                <div class="clock d-flex flex-row align-content-center">
+                                    <div>
+                                        <i class="fas fa-clock d-inline"></i>
+                                    </div>
+                                    <div class="time">
+                                        <p class=" mb-0">1:30 hr</p>
+                                    </div>
                                 </div>
                             </div>
-                      </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card"data-aos="fade-up" data-aos-delay="400">
+                    <div class="card" data-aos="fade-up" data-aos-delay="400">
                         <img src="images/courses/course-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Powerpoint 2020 Master Powerpoint Course</h5>
@@ -196,7 +199,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card"data-aos="fade-up" data-aos-delay="500">
+                    <div class="card" data-aos="fade-up" data-aos-delay="500">
                         <img src="images/courses/course-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">The Complete JavaScript Course 2020</h5>
@@ -224,18 +227,19 @@
                 </div>
 
     </footer>
-<p style="color: #A2A2A2; text-align: center; font-family: poppins; font-weight: 300; font-size: 14px;">Copyright © 2022 Farhan Hasan Nilok. All right reserved.</p>
-   
+    <p style="color: #A2A2A2; text-align: center; font-family: poppins; font-weight: 300; font-size: 14px;">Copyright ©
+        2022 Farhan Hasan Nilok. All right reserved.</p>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init({
-                duration: 1200
-            });
-        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200
+        });
+    </script>
 </body>
 
 </html>

@@ -24,6 +24,10 @@ ul {
     width: 56px;
 }
 
+#navbarText{
+    font-family: poppins;
+    font-weight: 300;
+}
 
 .player-name {
     padding: 15px;
